@@ -1,0 +1,358 @@
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+.mountain-picture {
+    width: 100%;
+    min-height: 1024px;
+    background-color: #4d4b45;
+    background-image: url(../img/photo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 150px 42px 150px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*.mountain-picture:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}*/
+
+.mountain-logo {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    width: 179px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 376px;
+    float: left;
+}
+
+.logo-svg {
+    fill: currentColor;
+
+}
+
+.logo-txt {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+    font-family: Raleway;
+    text-align: right;
+    text-decoration: none;
+}
+
+.mountain-logo:hover {
+    color: #998675;
+}
+
+.mountain-logo:active {
+    color: #c7b299;
+}
+
+.logo-txt:hover {
+    color: #998675;
+}
+
+.logo-txt:active {
+    color: #c7b299;
+}
+
+.mountain-menu {
+    display: flex;
+}
+
+.mountain-list {
+    margin: 21px 0 0 0;
+}
+
+.mountain-item {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.mountain-link {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+.mountain-item:nth-child(1) {
+    margin-left: 189px;
+}
+
+.mountain-link:hover {
+    color: #998675;
+}
+
+.mountain-link:active {
+    color: #c7b299;
+}
+
+.mountain-icon {
+    margin: 15px 0 0 63px;
+}
+
+input[type="button"] {
+    width: 18px;
+    height: 24px;
+    outline: none;
+    color: #ffffff;
+    background-image: url(../img/icon-cart.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+input[type="button"]:hover {
+    color: #998675;
+}
+
+
+input[type="search"] {
+    width: 24px;
+    height: 24px;
+    outline: none;
+    color: #ffffff;
+    background-image: url(../img/icon-search.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    margin-left: 28px;
+}
+
+input[type="search"]:hover {
+    color: #998675;
+}
+
+input[type="search"]:focus {
+    width: 300px;
+    transition: width 1s ease-out;
+    background-position: right;
+    border: 1px solid #ffffff;
+
+}
+
+.carusel {
+    width: 100%;
+    margin-top: 381px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carusel-btn1 {
+    display: block;
+    width: 40px;
+    height: 73px;
+    margin: 0 435px 0 0;
+    position: relative;
+}
+
+.carusel-btn1:after {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-top: 2px solid #a2a19f;
+    border-right: 2px solid #a2a19f;
+    transform: rotate(-135deg);
+    position: absolute;
+    top: 10px;
+    left: -25px;
+}
+
+.carusel-btn1:hover:after {
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+.carusel-txt {
+    text-align: center;
+}
+
+.mountain-h1 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    display: block;
+}
+
+.mountain-h2 {
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.mountain-txt {
+    width: 562px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0 73px 0;
+
+}
+
+.mountain-button {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 21px 39px 21px 37px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #998675;
+    margin-top: 52px;
+    text-align: center;
+}
+
+.mountain-button:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.mountain-button:active {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #c7b299;
+}
+
+.carusel-btn2 {
+    display: block;
+    width: 40px;
+    height: 73px;
+    margin: 0 0 0 435px;
+    position: relative;
+}
+
+.carusel-btn2:after {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-top: 2px solid #a2a19f;
+    border-right: 2px solid #a2a19f;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+    left: -25px;
+
+}
+
+.carusel-btn2:hover:after {
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+.carusel-pagination {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 909px;
+    bottom: 42px;
+}
+
+.carusel-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #8a8b8e;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.carusel-pagination-item:hover {
+    background-color: transparent;
+    border: 1px solid #8a8b8e;
+    transform: scale(1, 2);
+}
+
+.value-product {
+    width: 100%;
+    min-height: 373px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 376px 80px 378px;
+    box-sizing: border-box;
+}
+
+.value-marks {
+    text-align: center;
+    width: 266px;
+}
+
+.value-marks:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+    align-self: flex-end;
+    margin-top: 30px;
+}
+
+.value-marks:hover:after {
+  background-color:#c7b299;
+}
+
+.value-img {
+    color: #555555;
+}
+
+.value-img:hover {
+    color: #c7b299;
+}
+
+.value-header {
+    color: #555555;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+    margin-top: 29px;
+}
+
+.value-header:hover {
+    color: #daccbc;
+}
+
+.value-txt {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 19px;
+}
