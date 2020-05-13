@@ -664,7 +664,7 @@ input[type="search"]:focus {
     text-align: center;
     margin: 40px 0 0 500px;
     width: 170px;
-    height: 50px;        
+    height: 50px;
 }
 
 .latest-projects-btn:hover {
@@ -676,4 +676,46 @@ input[type="search"]:focus {
 .latest-projects-btn:active {
     background-color: #feecbc;
     box-shadow: none;
+}
+
+.video {
+    width: 100%;
+    min-height: 705px;
+    position: relative;
+}
+
+.video-info {
+    min-width: 552px;
+    min-height: 288px;
+    position: absolute;
+    top: 210px;
+    left: 685px;
+}
+
+.video-info-btn {
+    fill: #ffffff;
+}
+
+
+.video-header {
+    color: #ffffff;
+    font-family: "raleway-regular";
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.video-txt {
+    color: #ffffff;
+    font-family: "montserrat-regular";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.video-number {
+    color: #c7b299;
+    font-family: "montserrat-regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
